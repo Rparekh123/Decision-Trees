@@ -37,5 +37,14 @@ The model used to predict future returns is the regression tree model. There are
 ## Pyfolio Backtest
  ![image](https://user-images.githubusercontent.com/52425750/165813101-2b3a3d28-3669-4718-9857-f2dfdb887b3e.png)
  ![image](https://user-images.githubusercontent.com/52425750/165813123-a2b237f8-6b66-4d32-896a-e4823237bb9c.png)
-
+# Blushift Decision Tree Strategy Backtest
+    Title: Regression Tree Model
+    Description: This strategy will use regression tree model to predict next day's 
+                 movement. This a long short strategy which rebalances the 
+                 portfolio weights every day and retrains the model 
+                 at the start of each month.
+    Style tags: Systematic
+    Asset class: Equities
+    Dataset: US Equities
+ ![image](https://user-images.githubusercontent.com/52425750/165814352-d4228caa-5af9-4f6b-b6cf-afef00bb23fb.png)
 
