@@ -18,3 +18,4 @@ Part I: Single leaf
 Part II: Full tree
 1. Trading rule based on all the leaf node
 5. Compute the performance in the train and test dataset
+![image](https://user-images.githubusercontent.com/52425750/165808566-7462b4fb-7395-4af9-995d-b0f26f22e30e.png)
