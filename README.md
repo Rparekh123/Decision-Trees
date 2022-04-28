@@ -18,4 +18,15 @@ Part I: Single leaf
 Part II: Full tree
 1. Trading rule based on all the leaf node
 5. Compute the performance in the train and test dataset
-![image](https://user-images.githubusercontent.com/52425750/165808566-7462b4fb-7395-4af9-995d-b0f26f22e30e.png)
+
+
+ ## Data Source
+Historical data was collected from the Yahoo finance library. The data starts from January 1st, 2009 and up till April 25, 2022. The yahoo finance library is very simple and easy to use. The data collected were the daily prices of the stocks, the high, low, open, close, adj close and volume.
+ ### Apple Stock Closing Price
+![image](https://user-images.githubusercontent.com/52425750/165809695-07dffdd7-44b3-4b11-9fa2-07e286d8d9ab.png)
+  ## Modeling 
+The model used to predict future returns is the regression tree model. There are two strategies involved:
+  1. Single Leaf -> Buy when the value of the ATR indicator is greater than .326 and the 5-day standard deviation is greater than .01
+  2. Full Tree -> Buy if the expected value is positive or else sell the stock
+  
+![image](https://user-images.githubusercontent.com/52425750/165811719-2dab44ae-ae3b-464c-9939-57bbbf854228.png)
