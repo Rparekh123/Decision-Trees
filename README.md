@@ -4,7 +4,7 @@ A regression tree automatically selects important predictors and suggests tradin
 <BR>
 
 <B>Create a regression tree</B>
-1. Import stock data
+1. Import stock data - Apple
 1. Define predictor variables and a target variable
 2. Split the data into train and test 
 3. Create a regression tree model using the training data
@@ -44,7 +44,7 @@ The model used to predict future returns is the regression tree model. There are
                  portfolio weights every day and retrains the model 
                  at the start of each month.
     Style tags: Systematic
-    Asset class: Equities
+    Asset class: Apple Stock Equity
     Dataset: US Equities
  ![image](https://user-images.githubusercontent.com/52425750/165814352-d4228caa-5af9-4f6b-b6cf-afef00bb23fb.png)
 
